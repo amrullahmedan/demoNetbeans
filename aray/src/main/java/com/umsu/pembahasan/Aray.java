@@ -13,23 +13,23 @@ public class Aray {
     public static void main(String[] args) {
         
        
-        String [] teks = {"saya","sedang","belajar","java"};
-        System.out.println("Isi Arai = " + teks[0]);
-//        for (int i = 0; i < teks.length; i++) {
-//            System.out.println("isi teks ke "+  teks[i]);
-////        }
-//        String [] Nm_Mhs = new String[5];
-//        Scanner scan = new Scanner(System.in);
-//        
-//        for (int i = 0; i < Nm_Mhs.length; i++) {
-//            System.out.print("Nama Mahasiswa ke " + i  +" : ");
-//            Nm_Mhs[i] =   scan.nextLine();
-//            
-//        }       
-//       System.out.println("####===================###");       
-//       for (String mahasiswa : Nm_Mhs) {
-//           System.out.println(mahasiswa);
-//        } 
-//        
+//        String [] teks = {"Annis","Ganjar","Prabowo","Jokowi"};
+//        System.out.println("Isi Arai = " + teks);
+//            for (int i = 0; i < teks.length; i++) {
+//                System.out.println("isi arainya adalah " + teks[i]);
+//        }
+        String [] Nm_Mhs = new String[4];
+        Scanner scan = new Scanner(System.in);
+        
+        for (int i = 0; i < Nm_Mhs.length; i++) {
+            System.out.print("Nama Capres ke " + i  +" : ");
+            Nm_Mhs[i] =   scan.nextLine();
+            
+        }       
+       for (String mahasiswa : Nm_Mhs) {
+           System.out.println("####=======================###");       
+           System.out.println(mahasiswa);
+        }         
     }
 }
+    

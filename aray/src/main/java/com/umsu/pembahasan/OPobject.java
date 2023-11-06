@@ -17,6 +17,7 @@ public class OPobject extends javax.swing.JFrame {
      */
     public OPobject() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
